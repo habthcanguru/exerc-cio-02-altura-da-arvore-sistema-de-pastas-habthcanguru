@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Valida classe Ex01AlturaDaArvore
         setup-command: ''
-        command: ' test -f Ex01AlturaDaArvore.java && grep -Eq "(^|[[:space:]])class[[:space:]]+Ex01AlturaDaArvore([[:space:]]|\{)"
+        command: ' test -f Exercicios_Arvore/Ex01AlturaDaArvore.java && grep -Eq "(^|[[:space:]])class[[:space:]]+Ex01AlturaDaArvore([[:space:]]|\{)"
           Ex01AlturaDaArvore.java && javac Ex01AlturaDaArvore.java'
         timeout: 10
         max-score: 7
